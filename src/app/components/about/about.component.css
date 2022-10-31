@@ -14,9 +14,63 @@ body {
       justify-content: center;
   }
         
-  .text {
+  .container {
+      position: absolute;
+      font-family: system-ui;
       font-size: 1.4rem;
       text-align: center;
       color: white;
-      
+  }
+  .text{
+    text-overflow: clip;
+    overflow: hidden;
+  }
+  div > p{
+    animation: anim-lineUp 3s ease-out;
+    overflow: hidden;
+  }
+
+  span{
+    overflow: hidden;
+
+  }
+  h1{
+    position: relative;
+    animation: text-animation 5s ease;
+  }
+
+
+  @keyframes text-animation {
+    0%{
+      width: 0%;
+      height: 0%;
+    }
+    50%{
+        width: 100%;
+
+  }
+    100%{
+      height: 100%;
+
+
+        
+    }
+  }
+
+  @keyframes anim-lineUp {
+    0% {
+      opacity: 0;
+      transform: translateY(80%);
+    }
+    20% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
   }
