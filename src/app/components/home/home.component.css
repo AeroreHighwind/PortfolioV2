@@ -2,3 +2,18 @@
 /* .container{
     background: radial-gradient(closest-side, #000000, #585858, #000000);
 }*/ 
+body{
+    margin: 0px;
+}
+
+.hidden{
+    margin: 0px;
+    opacity: 0;
+    transition: all 1s;
+}
+
+.show {
+    margin: 0px;
+    opacity: 1;
+}
+
