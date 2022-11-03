@@ -1,6 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
-html {background-color: rgb(44, 44, 44);
+html {/*background-color: rgb(44, 44, 44);*/
+    background-color: #19191d;
     scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 

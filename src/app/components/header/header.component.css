@@ -1,18 +1,36 @@
 /* Add a black background color to the top navigation */
-.topnav {
-    background-color: transparent;
-    overflow: hidden;
+header {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 1vh;
+  padding: 30px 10%;
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: 10;
   }
   
+  .logo{
+    color: aliceblue;
+  }
+  
+  ul{
+    display: flex;
+    list-style: none;
+  }
+  .space{
+    height: 18px;
+    width: 61px;
+  }
   /* Style the links inside the navigation bar */
-  .topnav a {
+    a {
     float: right;
     display: block;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
   }
   
   /* Change the color of links on hover */
