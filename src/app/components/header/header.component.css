@@ -1,17 +1,26 @@
 /* Add a black background color to the top navigation */
-header {
-  position: relative;
+.container {
+  position:absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
   height: 1vh;
+  width: 80%;
   padding: 30px 10%;
   margin: 0;
-  background-color: rgba(0, 0, 0, 0.2);
+
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+
   z-index: 10;
   }
   
   .logo{
+    background-image: url(src\assets\img\logo-placeholder2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 64px ;
+    min-width: 64px;
     color: aliceblue;
   }
   
@@ -31,6 +40,8 @@ header {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    margin: 0px 20px;
+    background-color: red;
   }
   
   /* Change the color of links on hover */
