@@ -1,17 +1,18 @@
 /* Add a black background color to the top navigation */
 .container {
+  display: flex;
+  font-family: serif;
+  font-weight: bold;
   position:absolute;
   top: 0; right: 0; bottom: 0; left: 0;
-  display: flex;
   height: 1vh;
-  width: 80%;
+  width: 100%;
+  max-width: 100%;
   padding: 30px 10%;
   margin: 0;
-
   justify-content: space-between;
   align-items: center;
   background-color: rgba(0, 0, 0, 0.5);
-
   z-index: 10;
   }
   
@@ -60,3 +61,9 @@
   .topnav .icon {
     display: none;
   }
+
+  @media (max-width: 700px) {
+      .container{
+        flex-direction: column;
+    }
+}
