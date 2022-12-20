@@ -1,5 +1,5 @@
 <body>
-<section id="mySkills">
+    <section id="mySkills">
         <div class="hero">
             <div class="text">
                 <h1>Mis habilidades</h1>
@@ -8,12 +8,20 @@
                 <div class="column">
                     <h1>Soft</h1>
                     <ul>
-                        <li>Comunicacion
-                            
+
+                        <li>
+                            <circle-progress [percent]="85" [title]="'Comunicacion'"></circle-progress>
                         </li>
-                        <li>Trabajo en equipo</li>
-                        <li>Adaptacion</li>
-                        <li>Ingles: C2</li>
+
+                        <li>
+                            <circle-progress [percent]="95" [title]="'Teamwork'"></circle-progress>
+                        </li>
+                        <li>
+                            <circle-progress [percent]="90" [title]="'Adaptabilidad'"></circle-progress>
+                        </li>
+                        <li>
+                            <circle-progress [percent]="98" [title]="'Ingles:C2'"></circle-progress>
+                        </li>
                     </ul>
                 </div>
                 <div class="column">
@@ -26,7 +34,7 @@
                         <li>Spring boot</li>
                     </ul>
                 </div>
-              </div>
-    </div>
-</section>
-  </body>
+            </div>
+        </div>
+    </section>
+</body>

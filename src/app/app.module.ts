@@ -10,6 +10,7 @@ import { AboutComponent } from './components/about/about.component';
 import { SkillsComponent } from './components/skills/skills.component';
 import { HomeComponent } from './components/home/home.component';
 import { EducationComponent } from './components/education/education.component';
+import { NgCircleProgressModule } from 'ng-circle-progress';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,21 @@ import { EducationComponent } from './components/education/education.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgCircleProgressModule.forRoot({
+      // set defaults here
+      radius: 60,
+      titleFontSize:"15",
+      titleColor:"#ff004c",
+      outerStrokeWidth: 7,
+      innerStrokeWidth: 3,
+      outerStrokeColor: "#ff004c",
+      innerStrokeColor: "#ff0000",
+      animationDuration: 300,
+      showUnits:false,
+      showSubtitle:false,
+    })
+
   ],
   providers: [],
   bootstrap: [AppComponent]
