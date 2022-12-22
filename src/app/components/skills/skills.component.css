@@ -32,14 +32,25 @@ h1{
 
 .row {
   display: flex;
+  overflow: hidden;
   font-size: 1.4rem;
   text-align: center;
   color: white;
+  background-color: red;
 }
 ul{
   list-style: none;
+  display: flex;
+  align-content: stretch;
+  background-color: aquamarine;
 }
+li{
+  background-color: blue;
+}
+.container{
+  display: flex;
 
+}
 .column {
   flex: 50%;
 }
