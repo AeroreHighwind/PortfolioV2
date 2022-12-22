@@ -7,6 +7,8 @@ html {/*background-color: rgb(44, 44, 44);*/
     padding: 0;
     box-sizing: border-box;
 }
+body { margin: 0; padding: 0; }
+
 div{
     max-width: 1920px;
 }
@@ -14,5 +16,13 @@ div{
 @media (max-width: 700px) {
     div{
         flex-direction: column;
+    }
+html{font-size: 50%;}
+}
+
+@media(max-width:400px){
+    html{
+        font-size: 50%;
+        margin-top: 10px;
     }
 }
