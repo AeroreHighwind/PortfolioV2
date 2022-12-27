@@ -38,6 +38,10 @@ import { NgCircleProgressModule } from 'ng-circle-progress';
       animationDuration: 300,
       showUnits:false,
       showSubtitle:false,
+      showImage:true,
+      responsive:true,
+      imageHeight:50,
+      imageWidth:50,
     })
 
   ],
