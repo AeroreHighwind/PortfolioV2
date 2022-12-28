@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+  }     
+  .hero {
+      background-image: url(src\assets\img\Wallpaper5.jpg);
+      height: 100vh;
+      align-self: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      align-items: center;
+      justify-content: center;
+  }
+        
+
+  p{
+    padding-left: 20px;
+  }
+  div > p{
+    animation: anim-lineUp 3s ease-out;
+    overflow: hidden;
+  }
+  h1{
+    overflow: hidden;
+    position: relative;
+    padding-top: 20px;
+    font-size: 2.2rem;
+    font-weight: bolder;
+    text-align: center;
+    color: white;
+    animation: anim-lineUp 2s ease-in;
+    white-space: nowrap;
+  }
+  
+  ul{
+    font-size: 1.4rem;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    flex-direction: column;
+    /*align-content: stretch;*/
+  }
+
+  li{
+    list-style-type: '>_ ';
+    display: list-item;
+    align-items: left;
+  }
+  
+  @keyframes anim-lineUp {
+    0% {
+      opacity: 0;
+      transform: translateY(80%);
+    }
+    20% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }

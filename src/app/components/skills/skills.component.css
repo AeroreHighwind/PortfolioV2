@@ -24,6 +24,7 @@ div > p{
 }
 
 h1{
+  padding-top: 20px;
   overflow: hidden;
   position: relative;
   animation: anim-lineUp 2s ease-in;
@@ -44,9 +45,7 @@ ul{
   align-content: stretch;
 
 }
-li{
 
-}
 .container{
   display: flex;
 
