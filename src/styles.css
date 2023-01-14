@@ -1,5 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
+
 *{box-sizing: border-box;}
+
 html {/*background-color: rgb(44, 44, 44);*/
     background-color: #19191d;
     scroll-behavior: smooth;
@@ -14,16 +16,3 @@ div{
 }
 
 
-@media (max-width: 700px) {
-    div{
-        flex-direction: column;
-    }
-html{font-size: 50%;}
-}
-
-@media(max-width:400px){
-    html{
-        font-size: 50%;
-        margin-top: 10px;
-    }
-}
