@@ -1,0 +1,38 @@
+{
+    "Comunication":{
+        "name":"Comunication",
+        "isHard?":false,
+        "percentage":80,
+        "description": "Lorem ipsum, dolor sit aaLorem ipsum, dolor sit aaLorem ipsum, dolor sit aaLorem ipsum, dolor sit aaLorem ipsum, dolor sit aaLorem ipsum, dolor sit aa",
+        "imageURL": "string"
+    },
+    "Teamwork":{
+        "name":"Teamwork",
+        "isHard?":false,
+        "percentage":80,
+        "description": "Lorem ipsum, dolor sit aaLorem ipsum, dolor sit aaLorem ipsum, dolor sit aaLorem ipsum, dolor sit aaLorem ipsum, dolor sit aaLorem ipsum, dolor sit aa",
+        "imageURL": "string"
+    },
+    "Adaptability":{
+        "name":"Adaptability",
+        "isHard?":false,
+        "percentage":80,
+        "description": "Lorem ipsum, dolor sit aaLorem ipsum, dolor sit aaLorem ipsum, dolor sit aaLorem ipsum, dolor sit aaLorem ipsum, dolor sit aaLorem ipsum, dolor sit aa",
+        "imageURL": "string"
+    },
+    "English":{
+        "name":"English",
+        "isHard?":false,
+        "percentage":80,
+        "description": "Lorem ipsum, dolor sit aaLorem ipsum, dolor sit aaLorem ipsum, dolor sit aaLorem ipsum, dolor sit aaLorem ipsum, dolor sit aaLorem ipsum, dolor sit aa",
+        "imageURL": "string"
+    },
+    "Self-Awareness":{
+        "name":"Self-Awareness",
+        "isHard?":false,
+        "percentage":80,
+        "description": "Lorem ipsum, dolor sit aaLorem ipsum, dolor sit aaLorem ipsum, dolor sit aaLorem ipsum, dolor sit aaLorem ipsum, dolor sit aaLorem ipsum, dolor sit aa",
+        "imageURL": "string"
+    }
+
+}

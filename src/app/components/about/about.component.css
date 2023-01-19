@@ -5,7 +5,7 @@ body {
   .hero {
       display: flex;
       flex-direction: column;
-      background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)), url(src\assets\img\wallpaper1.jpg);
+      background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)), url(src\assets\img\wallpaper2.jpg);
       height: 100vh;
       align-self: center;
       background-repeat: no-repeat;
@@ -13,6 +13,7 @@ body {
       background-attachment: fixed;
       align-items: center;
       justify-content: center;
+      
   }
         
   .container {
@@ -27,17 +28,7 @@ body {
     overflow: hidden;
   }
   span > p{
-  
-      overflow: hidden; /* Ensures the content is not revealed until the animation */
-      border-right: .15em solid orange; /* The typwriter cursor */
-      white-space: pre-line; /* Keeps the content on a single line */
-      margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-      letter-spacing: 0.1em; /* Adjust as needed */
-      font-weight: bolder;
-      animation: 
-        typing 3.3s steps(40, end),
-        blink-caret .75s step-end infinite;
-    
+
   }
 
   h1{

@@ -1,7 +1,6 @@
+import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import {HttpClient} from '@angular/common/http';
-import { Observable, observable } from 'rxjs';
-
+import { Observable } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
@@ -12,6 +11,6 @@ export class SkillsService {
 
   getData() : Observable<any>{
     console.log("Skills data loaded");
-    return this.http.get('src\assets\scripts\skillsData.json');
+    return this.http.get('./assets/scripts/skillsData.json');
   }
 }

@@ -11,7 +11,15 @@ h1{
   text-align: center;
   font-family: 'Alegreya';
   font-weight: bolder;
-  font-size: 2em;
+  font-size: 2.5em;
+  color: aliceblue;
+}
+h2{
+  margin-top: 0;
+  text-align: center;
+  font-family: 'Alegreya';
+  font-weight: bolder;
+  font-size: 1.8em;
   color: aliceblue;
 }
 
@@ -25,7 +33,7 @@ p{
 
 
 .hero {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 1)), url(src\assets\img\skills2.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 1)), url(src\assets\img\skills3.jpg);
   height: 1080px;
   align-self: center;
   background-repeat: no-repeat;
@@ -241,7 +249,7 @@ button:focus {
   }
 }
 
-@media screen and (max-width:600px){
+@media screen and (max-width:620px){
   .grid{
     display: block;
     margin: auto;
