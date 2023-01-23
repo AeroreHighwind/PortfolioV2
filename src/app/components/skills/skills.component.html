@@ -76,9 +76,9 @@
                 <h2>Hard</h2>
                 <div class="grid">
                     <ul>
-                        <li>
-                            <circle-progress [percent]="80" [title]="'HTML'"
-                                imageSrc='assets/img/html_logo.png' [imageHeight]="50" [imageHeight]="50">
+                        <li *ngFor="let Habilidad of habilidades">
+                            <circle-progress [percent]="Habilidad.percentage" [title]="Habilidad.name"
+                                [imageSrc]="Habilidad.imageURL" [imageHeight]="50" [imageHeight]="50">
                             </circle-progress>
                             
                         </li>

@@ -1,6 +1,7 @@
-import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import{SkillsService} from 'src/app/Services/skills.service';
+import { Habilidad } from 'src/app/model/habilidad';
+
 
 
 
@@ -12,13 +13,23 @@ import{SkillsService} from 'src/app/Services/skills.service';
 })
 export class SkillsComponent implements OnInit {
 
+  habilidades: Habilidad[] = [];
+
   constructor( private skillData:SkillsService) { }
 
   ngOnInit(): void {
-    this.skillData.getData().subscribe(data => {
-    console.log(data);      
+    this.skillData.getData().subscribe(data => {    
+    for(const prop in data){
+      this.habilidades.push(data[prop])
+    } 
+    console.log(this.habilidades);
+    console.log(this.habilidades[3].name);
+    console.log(this.habilidades[3].percentage);
+    console.log(this.habilidades[3].imageURL);
     });
   }
+
+
 
 
    myFunction():void {

@@ -4,33 +4,61 @@
         "isHard?":false,
         "percentage":80,
         "description": "Lorem ipsum, dolor sit aaLorem ipsum, dolor sit aaLorem ipsum, dolor sit aaLorem ipsum, dolor sit aaLorem ipsum, dolor sit aaLorem ipsum, dolor sit aa",
-        "imageURL": "string"
+        "imageURL": "assets/img/comunication_logo.png"
     },
     "Teamwork":{
         "name":"Teamwork",
         "isHard?":false,
-        "percentage":80,
+        "percentage":90, 
         "description": "Lorem ipsum, dolor sit aaLorem ipsum, dolor sit aaLorem ipsum, dolor sit aaLorem ipsum, dolor sit aaLorem ipsum, dolor sit aaLorem ipsum, dolor sit aa",
         "imageURL": "string"
     },
     "Adaptability":{
         "name":"Adaptability",
         "isHard?":false,
-        "percentage":80,
+        "percentage":83,
         "description": "Lorem ipsum, dolor sit aaLorem ipsum, dolor sit aaLorem ipsum, dolor sit aaLorem ipsum, dolor sit aaLorem ipsum, dolor sit aaLorem ipsum, dolor sit aa",
         "imageURL": "string"
     },
     "English":{
         "name":"English",
         "isHard?":false,
-        "percentage":80,
+        "percentage":95,
         "description": "Lorem ipsum, dolor sit aaLorem ipsum, dolor sit aaLorem ipsum, dolor sit aaLorem ipsum, dolor sit aaLorem ipsum, dolor sit aaLorem ipsum, dolor sit aa",
         "imageURL": "string"
     },
-    "Self-Awareness":{
-        "name":"Self-Awareness",
-        "isHard?":false,
+    "HTML":{
+        "name":"HTML",
+        "isHard?":true,
         "percentage":80,
+        "description": "Lorem ipsum, dolor sit aaLorem ipsum, dolor sit aaLorem ipsum, dolor sit aaLorem ipsum, dolor sit aaLorem ipsum, dolor sit aaLorem ipsum, dolor sit aa",
+        "imageURL": "./img/css_logo.png"
+    },
+    "CSS":{
+        "name":"CSS",
+        "isHard?":true,
+        "percentage":75,
+        "description": "Lorem ipsum, dolor sit aaLorem ipsum, dolor sit aaLorem ipsum, dolor sit aaLorem ipsum, dolor sit aaLorem ipsum, dolor sit aaLorem ipsum, dolor sit aa",
+        "imageURL": "string"
+    },
+    "JS":{
+        "name":"JS",
+        "isHard?":true,
+        "percentage":70,
+        "description": "Lorem ipsum, dolor sit aaLorem ipsum, dolor sit aaLorem ipsum, dolor sit aaLorem ipsum, dolor sit aaLorem ipsum, dolor sit aaLorem ipsum, dolor sit aa",
+        "imageURL": "string"
+    },
+    "Angular":{
+        "name":"Angular",
+        "isHard?":true,
+        "percentage":75,
+        "description": "Lorem ipsum, dolor sit aaLorem ipsum, dolor sit aaLorem ipsum, dolor sit aaLorem ipsum, dolor sit aaLorem ipsum, dolor sit aaLorem ipsum, dolor sit aa",
+        "imageURL": "string"
+    },
+    "SpringBoot":{
+        "name":"SpringBoot",
+        "isHard?":true,
+        "percentage":70,
         "description": "Lorem ipsum, dolor sit aaLorem ipsum, dolor sit aaLorem ipsum, dolor sit aaLorem ipsum, dolor sit aaLorem ipsum, dolor sit aaLorem ipsum, dolor sit aa",
         "imageURL": "string"
     }
