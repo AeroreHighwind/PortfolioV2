@@ -7,31 +7,10 @@
                 <h2>Soft</h2>
                 <div class="grid">
                     <ul>
-                        <li>
-                            <circle-progress [percent]="85" [title]="'Comunication'"
-                                imageSrc='assets/img/comunication_logo.png' [imageHeight]="50" [imageHeight]="50">
-                            </circle-progress>
-                            
-                        </li>
-                        <li>
-                            <circle-progress [percent]="90" [title]="'Teamwork'"
-                                imageSrc='assets/img/cooperation_logo.png' [imageHeight]="50" [imageHeight]="50">
-                            </circle-progress>
-                        </li>
-                        <li>
-                            <circle-progress [percent]="80" [title]="'Comunication'"
-                                imageSrc='assets/img/adaptability_logo.png' [imageHeight]="50" [imageHeight]="50">
-                            </circle-progress>
-                        </li>
-                        <li>
-                            <circle-progress [percent]="95" [title]="'English'"
-                                imageSrc='assets/img/language_logo.png' [imageHeight]="50" [imageHeight]="50">
-                            </circle-progress>
-                        </li>
-                        <li>
-                            <circle-progress [percent]="85" [title]="'Self-awareness'"
-                                imageSrc='assets/img/selfawareness_logo.png' [imageHeight]="50" [imageHeight]="50">
-                            </circle-progress>
+                        <li *ngFor="let Habilidad of habilidades">
+                            <span *ngIf="!Habilidad.isHard"><circle-progress [percent]="Habilidad.percentage" [title]="Habilidad.name"
+                                [imageSrc]="Habilidad.imageURL" [imageHeight]="50" [imageHeight]="50">
+                            </circle-progress></span>
                         </li>
                     </ul>
                     <ul class="buttonul">
@@ -77,30 +56,9 @@
                 <div class="grid">
                     <ul>
                         <li *ngFor="let Habilidad of habilidades">
-                            <circle-progress [percent]="Habilidad.percentage" [title]="Habilidad.name"
+                            <span *ngIf="Habilidad.isHard"><circle-progress [percent]="Habilidad.percentage" [title]="Habilidad.name"
                                 [imageSrc]="Habilidad.imageURL" [imageHeight]="50" [imageHeight]="50">
-                            </circle-progress>
-                            
-                        </li>
-                        <li>
-                            <circle-progress [percent]="75" [title]="'CSS'"
-                                imageSrc='assets/img/css_logo.png' [imageHeight]="50" [imageHeight]="50">
-                            </circle-progress>
-                        </li>
-                        <li>
-                            <circle-progress [percent]="75" [title]="'JS'"
-                                imageSrc='assets/img/js_logo.png' [imageHeight]="50" [imageHeight]="50">
-                            </circle-progress>
-                        </li>
-                        <li>
-                            <circle-progress [percent]="75" [title]="'Angular'"
-                                imageSrc='assets/img/angular_logo.png' [imageHeight]="50" [imageHeight]="50">
-                            </circle-progress>
-                        </li>
-                        <li>
-                            <circle-progress [percent]="85" [title]="'SpringBoot'"
-                                imageSrc='assets/img/springboot_logo.png' [imageHeight]="50" [imageHeight]="50">
-                            </circle-progress>
+                            </circle-progress></span>
                         </li>
                     </ul>
                     <ul class="buttonul">

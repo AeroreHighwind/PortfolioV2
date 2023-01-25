@@ -1,66 +1,73 @@
 {
     "Comunication":{
         "name":"Comunication",
-        "isHard?":false,
+        "isHard":false,
         "percentage":80,
         "description": "Lorem ipsum, dolor sit aaLorem ipsum, dolor sit aaLorem ipsum, dolor sit aaLorem ipsum, dolor sit aaLorem ipsum, dolor sit aaLorem ipsum, dolor sit aa",
         "imageURL": "assets/img/comunication_logo.png"
     },
     "Teamwork":{
         "name":"Teamwork",
-        "isHard?":false,
+        "isHard":false,
         "percentage":90, 
         "description": "Lorem ipsum, dolor sit aaLorem ipsum, dolor sit aaLorem ipsum, dolor sit aaLorem ipsum, dolor sit aaLorem ipsum, dolor sit aaLorem ipsum, dolor sit aa",
-        "imageURL": "string"
+        "imageURL": "assets/img/cooperation_logo.png"
     },
     "Adaptability":{
         "name":"Adaptability",
-        "isHard?":false,
+        "isHard":false,
         "percentage":83,
         "description": "Lorem ipsum, dolor sit aaLorem ipsum, dolor sit aaLorem ipsum, dolor sit aaLorem ipsum, dolor sit aaLorem ipsum, dolor sit aaLorem ipsum, dolor sit aa",
-        "imageURL": "string"
+        "imageURL": "assets/img/adaptability_logo.png"
     },
     "English":{
         "name":"English",
-        "isHard?":false,
+        "isHard":false,
         "percentage":95,
         "description": "Lorem ipsum, dolor sit aaLorem ipsum, dolor sit aaLorem ipsum, dolor sit aaLorem ipsum, dolor sit aaLorem ipsum, dolor sit aaLorem ipsum, dolor sit aa",
-        "imageURL": "string"
+        "imageURL": "assets/img/language_logo.png"
+    },
+    "Self-Awareness":{
+        "name":"Self-Awareness",
+        "isHard":false,
+        "percentage":98,
+        "description": "Lorem ipsum, dolor sit aaLorem ipsum, dolor sit aaLorem ipsum, dolor sit aaLorem ipsum, dolor sit aaLorem ipsum, dolor sit aaLorem ipsum, dolor sit aa",
+        "imageURL": "assets/img/selfawareness_logo.png"
     },
     "HTML":{
         "name":"HTML",
-        "isHard?":true,
+        "isHard":true,
         "percentage":80,
         "description": "Lorem ipsum, dolor sit aaLorem ipsum, dolor sit aaLorem ipsum, dolor sit aaLorem ipsum, dolor sit aaLorem ipsum, dolor sit aaLorem ipsum, dolor sit aa",
-        "imageURL": "./img/css_logo.png"
+        "imageURL": "./img/html_logo.png"
     },
     "CSS":{
         "name":"CSS",
-        "isHard?":true,
+        "isHard":true,
         "percentage":75,
         "description": "Lorem ipsum, dolor sit aaLorem ipsum, dolor sit aaLorem ipsum, dolor sit aaLorem ipsum, dolor sit aaLorem ipsum, dolor sit aaLorem ipsum, dolor sit aa",
-        "imageURL": "string"
+        "imageURL": "assets/img/css_logo.png"
     },
     "JS":{
         "name":"JS",
-        "isHard?":true,
+        "isHard":true,
         "percentage":70,
         "description": "Lorem ipsum, dolor sit aaLorem ipsum, dolor sit aaLorem ipsum, dolor sit aaLorem ipsum, dolor sit aaLorem ipsum, dolor sit aaLorem ipsum, dolor sit aa",
-        "imageURL": "string"
+        "imageURL": "assets/img/js_logo.png"
     },
     "Angular":{
         "name":"Angular",
-        "isHard?":true,
+        "isHard":true,
         "percentage":75,
         "description": "Lorem ipsum, dolor sit aaLorem ipsum, dolor sit aaLorem ipsum, dolor sit aaLorem ipsum, dolor sit aaLorem ipsum, dolor sit aaLorem ipsum, dolor sit aa",
-        "imageURL": "string"
+        "imageURL": "assets/img/angular_logo.png"
     },
     "SpringBoot":{
         "name":"SpringBoot",
-        "isHard?":true,
+        "isHard":true,
         "percentage":70,
         "description": "Lorem ipsum, dolor sit aaLorem ipsum, dolor sit aaLorem ipsum, dolor sit aaLorem ipsum, dolor sit aaLorem ipsum, dolor sit aaLorem ipsum, dolor sit aa",
-        "imageURL": "string"
+        "imageURL": "assets/img/springboot_logo.png"
     }
 
 }

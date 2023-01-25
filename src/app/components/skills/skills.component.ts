@@ -26,6 +26,7 @@ export class SkillsComponent implements OnInit {
     console.log(this.habilidades[3].name);
     console.log(this.habilidades[3].percentage);
     console.log(this.habilidades[3].imageURL);
+    console.log(this.habilidades[3].isHard);
     });
   }
 
